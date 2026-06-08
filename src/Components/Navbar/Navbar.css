@@ -1,0 +1,6 @@
+
+
+.navbar img {
+  width: 80px;      /* largeur du logo */
+  height: auto;     /* conserve les proportions */
+}
