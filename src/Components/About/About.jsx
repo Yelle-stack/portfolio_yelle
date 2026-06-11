@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-            <img src={profile_img} alt="" />
+            <img src={profile_img} alt="profil_img" />
         </div>
         <div className="about-right">
             <div className="about-para">
@@ -25,6 +25,22 @@ const About = () => {
                 <div className="about-skill"><p>JavaScript</p><hr style={{width:"60%"}}/></div>
                 <div className="about-skill"><p>Naxt JS</p><hr style={{width:"50%"}}/></div>
             </div>
+        </div>
+      </div>
+      <div className="about-achievements">
+        <div className="about-achievement">
+            <h1>5+</h1>
+            <p>YEARS OF EXPERIENCE</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+            <h1>50+</h1>
+            <p>PROJECTS COMPLETED</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+            <h1>15+</h1>
+            <p>HAPPY CLIENTS</p>
         </div>
       </div>
     </div>
