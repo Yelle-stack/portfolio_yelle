@@ -9,20 +9,29 @@ const Contact = () => {
 
   const [result, setResult] = useState("")
 
+  // fonction propre pour afficher + cacher le message
+  const showResult = (message) => {
+    setResult(message)
+
+    setTimeout(() => {
+      setResult("")
+    }, 3000) // disparaît après 3 secondes
+  }
+
   const onSubmit = async (event) => {
-    event.preventDefault();
+    event.preventDefault()
     setResult("Sending...")
 
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.target)
 
     // clé Web3Forms
-    formData.append("access_key", "42b09f65-8006-431d-8fd2-e3d17cdb50ed");
+    formData.append("access_key", "42b09f65-8006-431d-8fd2-e3d17cdb50ed")
 
-    // optionnel mais propre : force reply-to
-    formData.append("replyto", formData.get("email"));
+    // reply-to propre
+    formData.append("replyto", formData.get("email"))
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+    const object = Object.fromEntries(formData)
+    const json = JSON.stringify(object)
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
@@ -32,21 +41,21 @@ const Contact = () => {
           Accept: "application/json"
         },
         body: json
-      });
+      })
 
-      const data = await res.json();
+      const data = await res.json()
 
       if (data.success) {
-        setResult("Message envoyé ✔")
+        showResult("Message envoyé ✔")
         event.target.reset()
       } else {
-        setResult("Erreur lors de l'envoi ❌")
+        showResult("Erreur lors de l'envoi ❌")
       }
 
     } catch (error) {
-      setResult("Erreur réseau ❌")
+      showResult("Erreur réseau ❌")
     }
-  };
+  }
 
   return (
     <div id='contact' className='contact'>
@@ -108,4 +117,4 @@ const Contact = () => {
   )
 }
 
-export default Contact;
+export default Contact
