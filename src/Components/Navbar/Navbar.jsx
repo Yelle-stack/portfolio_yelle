@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.PNG'
@@ -71,9 +70,9 @@ const Navbar = () => {
 
       </ul>
 
-      <div className="nav-connect">
+      <a href="#contact" className="nav-connect">
         Connect With Me
-      </div>
+      </a>
     </div>
   )
 }

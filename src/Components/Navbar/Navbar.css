@@ -8,8 +8,8 @@
 }
 
 .navbar img {
-  width: 80px;      /* largeur du logo */
-  height: auto;     /* conserve les proportions */
+    width: 80px;
+    height: auto;
 }
 
 .nav-menu {
@@ -21,10 +21,13 @@
 }
 
 .nav-connect {
+    display: inline-block;
     padding: 20px 40px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     font-size: 22px;
+    color: white;
+    text-decoration: none;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -43,4 +46,9 @@
 .nav-menu li img {
     display: flex;
     margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
