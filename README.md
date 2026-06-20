@@ -61,7 +61,7 @@ portfolio_yelle/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/portfolio_yelle.git
+git clone https://github.com/Yelle-stack/portfolio_yelle.git
 ```
 
 Navigate to the project folder:
