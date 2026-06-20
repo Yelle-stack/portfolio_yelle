@@ -1,16 +1,134 @@
-# React + Vite
+# 🌐 Portfolio Yelle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio!
 
-Currently, two official plugins are available:
+This project showcases my frontend development skills, services, and a selection of my projects. It was built to demonstrate my experience with modern web technologies and to provide an easy way for potential employers and clients to learn more about me.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- Git & GitHub
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Responsive design
+- Smooth scrolling navigation
+- Hero section
+- About Me section
+- Skills showcase
+- Services section
+- Portfolio projects gallery
+- Contact form
+- Modern UI with animations
+
+---
+
+## 📁 Project Structure
+
+```text
+portfolio_yelle/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── Components/
+│   │   ├── About/
+│   │   ├── Contact/
+│   │   ├── Footer/
+│   │   ├── Hero/
+│   │   ├── MyWork/
+│   │   ├── Navbar/
+│   │   └── Services/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/portfolio_yelle.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd portfolio_yelle
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📸 Preview
+
+You can add a screenshot of your portfolio here.
+
+Example:
+
+```md
+![Portfolio Screenshot](./src/assets/screenshot.png)
+```
+
+---
+
+## 🌍 Live Demo
+
+Once deployed, add your website link here.
+
+Example:
+
+```text
+https://your-portfolio.com
+```
+
+---
+
+## 📬 Contact
+
+**Jelena Zeko**
+
+📍 France
+
+📧 creation.siteweb@yahoo.com
+GitHub: https://github.com/Yelle-stack
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you like this project, feel free to give it a star on GitHub!
