@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.PNG'
 import underline from '../../assets/nav_underline.svg'
+import menu_open from '../../assets/menu_open.svg'
+import menu_close from '../../assets/menu_close.svg'
 
 const Navbar = () => {
 
@@ -9,10 +11,11 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <img src={logo} alt="logo_photo" />
+      <img src={logo} alt="logo_photo" className='logo'/>
+      <img src={menu_open} alt="open" className='nav-mob-open'/>
 
       <ul className="nav-menu">
-
+         <img src={menu_close} alt="close" className="nav-mob-close" />
         <li>
           <a
             href="#home"
