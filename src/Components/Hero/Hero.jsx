@@ -8,11 +8,11 @@ const Hero = () => {
       <img src={profile_img} alt="profil_photo" />
 
       <h1>
-        <span>I'm Jelena Zeko,</span> frontend developer based in France
+        <span>I'm Jelena Zeko,</span> a web developer based in France
       </h1>
 
       <p>
-        I am a frontend developer from France with 5 years of experience.
+        I am a web developer based in France, specializing in front-end development and WordPress, with 5 years of experience.
       </p>
 
       <div className="hero-action">
