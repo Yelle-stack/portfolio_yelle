@@ -78,4 +78,18 @@
         width: 130px;
         margin-right: -20px;
     }
+    .mywork-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .mywork-container img {
+        width: 100%;
+        height: 100%;
+    }
+    .mywork-showmore {
+        padding: 20px 40px;
+        font-size: 18px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
 }
