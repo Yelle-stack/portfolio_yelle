@@ -22,7 +22,7 @@ const Footer = () => {
       <hr />
       <div className="footer-bottom">
         <p 
-        className="footer-bottom-left">© 2026 Jelena Zeko. All rights reserved.
+        className="footer-bottom-left">© 2026 Jelena Zeko. All rights reserved. Design and Development by <span className='footer-name'>Jelena</span>
         </p>
         <div className="footer-bottom-right">
             <p>Term of Services</p>

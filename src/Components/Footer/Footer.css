@@ -84,6 +84,11 @@
     transition: 0.3s;
 }
 
+.footer-name {
+    font-weight: 700; /* ou 600, 800 selon le rendu souhaité */
+    color: #B415FF;
+}
+
 @media(max-width:768px) {
     .footer {
         margin: 50px 70px;
