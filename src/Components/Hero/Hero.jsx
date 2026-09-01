@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import profile_img from '../../assets/profile_img.PNG'
+import profile_img from '../../assets/profile_img.png'
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       <img src={profile_img} alt="profil_photo" />
 
       <h1>
-        <span>I'm Jelena Zeko,</span> a web developer based in France
+        <span>I'm Leena Zaeko,</span> a web developer based in France
       </h1>
 
       <p>
