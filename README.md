@@ -4,8 +4,7 @@ Welcome to my personal portfolio!
 
 This project showcases my frontend development skills, services, and a selection of my projects. It was built to demonstrate my experience with modern web technologies and to provide an easy way for potential employers and clients to learn more about me.
 
-![image alt](https://github.com/Yelle-stack/portfolio_yelle/blob/92816dd5fac288f1809204893a7d70213eacdb33/homePage.png)
----
+![image alt](https://github.com/Yelle-stack/portfolio_yelle/blob/bbf1c6972a9d1bf4542e79fb5bc2e418d54e579b/Capture%20d%E2%80%99e%CC%81cran%202026-09-02%20a%CC%80%2008.50.11.png)---
 
 ## 🚀 Technologies
 
